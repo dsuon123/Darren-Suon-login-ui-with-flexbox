@@ -1,0 +1,42 @@
+html,body {
+    margin: 0px;
+    background-color: blue;
+    box-sizing: border-box;
+}
+
+.container {
+                width: 500px;
+                height: 370px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin:auto;
+            /* row, row-reverse, column, and column-reverse */
+            /* flex-start, flex-end, center, space-around, and space-between */
+            /* stretch, flex-start, flex-end, center*/
+            border-color: black;
+            border-style: solid;
+            border-width: 15px;
+        }
+.card {
+    display: block;
+        border-color: black;
+        border-width: 12px;
+        border-style: solid;
+        padding: 1em;
+    /* margin: 10px; */
+}
+.form{
+border-style: solid;
+	display:flex;
+	flex-direction: column;
+	width:50%;
+	align-items:center;
+}
+.boxcard {
+padding:12px;
+	width:70%;
+	margin:12px;
+	border: 10px blue;
+	border-radius:12px;
+}
